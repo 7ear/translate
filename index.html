@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/countries.js"></script>
+  <script defer src="js/main.js"></script>
+  <link rel="icon" type="image/x-icon" href="/images/icon.ico">
+  <title>Translator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <h1 class="title">Translator</h1>
+      <div class="change-field">
+        <select class="select select-1"></select>
+        <button class="btn-change">
+          <img src="images/left-right.png" alt="img">
+        </button>
+        <select class="select select-2"></select>
+      </div>
+      <div class="inputs-field">
+        <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+        <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
